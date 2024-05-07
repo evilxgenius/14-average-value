@@ -28,5 +28,5 @@ document.querySelector('.btn').addEventListener('click', () => {
     }
 
     const sum = values.reduce((num1, num2) => num1 + num2, 0);
-    alert(`Average of ${values.join(' + ')} is ${sum / numOfValues}`);
+    alert(`Average of (${values.join(' + ')}) / ${numOfValues} is ${sum / numOfValues}`);
 });
